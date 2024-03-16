@@ -1,0 +1,21 @@
+{
+  "name": "my-new-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "devDependencies": {
+    "prettier": "1.19.1",
+    "vite": "5.0.8"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.21"
+  }
+}

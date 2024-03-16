@@ -1,0 +1,10 @@
+.container {
+    margin: auto;
+    max-width: 1448px;
+    display: grid;
+    grid-template-areas:
+        ". main .";
+    border: 1px solid rebeccapurple;
+    background-image: url("images/font.jpg");
+    background-size: cover;
+}

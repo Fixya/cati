@@ -1,0 +1,28 @@
+.container {
+    grid-area: skill;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.languages {
+    color: #f23f60;
+}
+
+.text {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.href {
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #a84822;
+    display: flex;
+    flex-direction: column;
+}

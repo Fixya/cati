@@ -1,0 +1,11 @@
+.container {
+    grid-area: main;
+  margin: 20px;
+    width: auto;
+  background-color: #edd9b2;
+  display: grid;
+  grid-template-areas:
+          "user activity"
+          "user skill"
+          ". contacts";
+}

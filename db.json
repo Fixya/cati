@@ -1,0 +1,58 @@
+{
+  "user" : [
+    {
+      "id": "user",
+      "photo": "me.jfif",
+      "name": "Cat in room"
+    }
+  ],
+  "activity" : [
+    {
+      "id": "activity",
+      "Im": {
+        "title": "Стараюсь учить новое и учиться его использовать, всегда стараюсь пока не получится максимально хорошо насколько смогу",
+        "specification": "Я сама"
+      },
+      "job": {
+        "title": "нет места работы",
+        "specification": "Работаю"
+      },
+      "affair": {
+        "title": "Учу js",
+        "specification": "Сейчас"
+      }
+    }
+  ],
+  "skill" : [
+    {
+      "id": "skill",
+      "languages": {
+        "title": ["C++","CSS","JS"],
+        "specification": "Языки на которых я программировала"
+      },
+      "projects": [{
+        "href": "https://github.com/Fixya/Lesson_3",
+        "specification": "Мой 3 урок на C++" },
+        {
+        "href":  "https://github.com/Fixya/Polutopia",
+        "specification": "Мой первый проект" },
+        {
+        "href": "https://github.com/Fixya/Lesson_",
+        "specification": "Мой урок на C++" }]
+    }
+  ],
+  "contacts" : [
+  {
+    "id": "contacts",
+    "username": {
+      "title": "Rain",
+      "specification": "моё прозвище" },
+    "email": {
+      "title": "MyITStepBy@gmail.com",
+      "specification": "Почта" },
+    "phone": {
+      "title": "8 025 905-00-05",
+      "specification": "Телефон"}
+  }
+]
+}
