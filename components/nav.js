@@ -4,11 +4,11 @@ import { goTo } from '../helpers/goTo';
 const navList = [
   {
     path: '/',
-    name: 'я любимая'
+    name: 'Обо мне'
   },
   {
     path: '/about',
-    name: 'больше подробностей, если скучно'
+    name: 'Мои скилы'
   }
 ];
 

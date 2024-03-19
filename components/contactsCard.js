@@ -13,7 +13,6 @@ export const contactsCard = data => {
 
     div.classList.add(styles.container)
 
-    div.append(exstraText(data.username, styles.text, renderServerValues(data.username, styles.username)))
     div.append(exstraText(data.email, styles.text, renderServerValues(data.email, styles.email)))
     div.append(exstraText(data.phone, styles.text, renderServerValues(data.phone, styles.phone)))
     return div;

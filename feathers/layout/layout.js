@@ -1,6 +1,6 @@
 import './layout.css';
 import {homePage} from "../../page/home";
-//import {aboutPage} from "../../page/about";
+import {aboutPage} from "../../page/about";
 
 export const getLayout = () => {
     const div = document.createElement('div')
@@ -11,8 +11,7 @@ export const getLayout = () => {
     }
 
     if (window.location.pathname === '/about') {
-        //div.append(aboutPage());
-        console.log('error 404')
+        div.append(aboutPage());
     }
 
     return div

@@ -44,9 +44,6 @@
   "contacts" : [
   {
     "id": "contacts",
-    "username": {
-      "title": "Rain",
-      "specification": "моё прозвище" },
     "email": {
       "title": "MyITStepBy@gmail.com",
       "specification": "Почта" },

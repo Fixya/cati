@@ -1,17 +1,20 @@
 .header {
     width: 100%;
-    height: 50px;
+    height: auto;
     background-color: bisque;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .ulClass {
-    margin: auto;
-    width: 500px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .liClass {
-    margin: auto;
+    margin: 15px;
+    list-style-type: none;
+    font-size: 20px;
 }
