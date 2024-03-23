@@ -16,6 +16,7 @@ const renderServerValuesLi = data => {
 const renderServerValuesHref = data => {
     const div = document.createElement('div')
     data.projects.map((item) => {
+        console.log(item)
         const a = document.createElement('a');
         a.href = item.href
         a.target = "_blank"

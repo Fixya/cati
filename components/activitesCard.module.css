@@ -5,9 +5,12 @@
     align-items: center;
 }
 
-.username {
-    font-size: 23px;
-    color: black;
+.image {
+    width: 100px;
+}
+
+.href {
+
 }
 
 .email {
