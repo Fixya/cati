@@ -17,7 +17,3 @@ export const contactsCard = data => {
     div.append(exstraText(data.phone, styles.text, renderServerValues(data.phone, styles.phone)))
     return div;
 }
-
-// data.relations.map((item) => {
-//     div.append(exstraText(data.relations[item[el]], styles.text, renderServerValues(data.relations[item], styles[item])))
-// })
