@@ -8,7 +8,7 @@ export const aboutPage = () => {
 
   div.classList.add(styles.container)
 
-  getPart('activity').then(data =>
+  getPart('skill').then(data =>
     data.data.map(skill => div.append(skillCard(skill)))
   );
 

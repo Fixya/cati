@@ -9,7 +9,7 @@ export const userCard = data => {
     name.classList.add(styles.name)
     div.classList.add(styles.container)
 
-    div.append(getPicture(data.photo, styles.image))
+    div.append(getPicture(data.image, styles.image))
     div.append(name)
     return div;
 };

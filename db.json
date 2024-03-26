@@ -2,8 +2,8 @@
   "user" : [
     {
       "id": "user",
-      "photo": "me.jfif",
-      "name": "Cat in room"
+      "image": "me.jfif",
+      "name": "Настя"
     }
   ],
   "activity" : [
@@ -44,12 +44,12 @@
   "contacts" : [
   {
     "id": "contacts",
-    "email": {
-      "title": "MyITStepBy@gmail.com",
-      "specification": "Почта" },
-    "phone": {
-      "title": "8 025 905-00-05",
-      "specification": "Телефон"}
+    "contact": [{
+        "href":  "https://discordapp.com/users/713093717342421022/",
+        "image": "discord1.png" },
+      {
+        "href": "https://t.me/Vanilinfi",
+        "image": "telegram2.png" }]
   }
 ]
 }
