@@ -1,19 +1,23 @@
 .header {
     width: 100%;
     height: auto;
-    background-color: bisque;
-    display: flex;
-    justify-content: space-evenly;
+    background-color: #cdc2f2;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    display: grid;
+    grid-template-areas:
+    ". . . user nav . . .";
 }
 
 .ulClass {
+    grid-area: nav;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .liClass {
-    margin: 15px;
+    margin: 25px;
     list-style-type: none;
     font-size: 20px;
 }

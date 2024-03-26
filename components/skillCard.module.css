@@ -5,7 +5,7 @@
 }
 
 .languages {
-    color: #f23f60;
+    color: #2c1670;
 }
 
 .text {
@@ -20,7 +20,11 @@
     margin: 10px;
     font-size: 20px;
     text-decoration: none;
-    color: #a84822;
+    color: #4020a1;
     display: flex;
     flex-direction: column;
+}
+
+.href:hover {
+    color: #8c6fe3;
 }

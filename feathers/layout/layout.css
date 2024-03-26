@@ -2,6 +2,6 @@
     display: grid;
     grid-template-areas:
         ". main .";
-    background-image: url("images/font.jpg");
+    background-image: url("images/back.avif");
     background-size: cover;
 }
