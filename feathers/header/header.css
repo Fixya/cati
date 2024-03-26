@@ -3,7 +3,7 @@
     height: auto;
     background-color: bisque;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .ulClass {

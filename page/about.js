@@ -1,4 +1,4 @@
-import styles from './homePage.module.css';
+import styles from './page.module.css';
 import { getPart } from '../api/getPart';
 import { skillCard } from '../components/skillCard';
 

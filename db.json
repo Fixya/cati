@@ -46,10 +46,10 @@
     "id": "contacts",
     "contact": [{
         "href":  "https://discordapp.com/users/713093717342421022/",
-        "image": "discord1.png" },
+        "image": "discord.png" },
       {
         "href": "https://t.me/Vanilinfi",
-        "image": "telegram2.png" }]
+        "image": "telegram.avif" }]
   }
 ]
 }
