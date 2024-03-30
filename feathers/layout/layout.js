@@ -1,6 +1,6 @@
 import './layout.css';
-import {homePage} from "../../page/home";
-import {aboutPage} from "../../page/about";
+import {homePage} from "../../page/pageHome";
+import {aboutPage} from "../../page/pageAbout";
 
 export const getLayout = () => {
     const div = document.createElement('div')

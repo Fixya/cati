@@ -1,4 +1,5 @@
 .container {
+    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,8 +24,10 @@
     color: #4020a1;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .href:hover {
     color: #8c6fe3;
+    font-size: 21px;
 }

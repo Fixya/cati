@@ -10,15 +10,15 @@
     {
       "id": "activity",
       "Im": {
-        "title": "Стараюсь адоптироваться во всех условиях; выбираю простые и логичные варианты решений",
+        "title": "Стараюсь адоптироваться во всех условиях; выбираю простые и логичные варианты решений, которые подходят под ситуацию.",
         "specification": "Я тянусь к знаниям"
       },
       "job": {
-        "title": "работаю на базовых и относительно старых языках",
+        "title": "Я работаю на базовых и относительно старых языках. Мне бы хотелось так же поработать и в других, например: C#, Python и ещё 2.",
         "specification": "В основном"
       },
       "affair": {
-        "title": "Учусь в академии ШАГ и изучаю самый обычный js",
+        "title": "Учусь в академии ШАГ и изучаю самый обычный js. В следующем году наша группа возьмёт фреймворки Angular, Node.js и React. Очень жду, когда нам расскажут, что это, и научат работать на них.",
         "specification": "Сейчас"
       }
     }
@@ -34,9 +34,6 @@
         "href": "https://github.com/Fixya/Polutopia",
         "specification": "Мой проект на C++" },
         {
-        "href":  "https://github.com/Fixya/Polutopia",
-        "specification": "Мой проект на C++" },
-        {
         "href": "https://github.com/Fixya/Lesson_",
         "specification": "Мой урок на C++" }]
     }
@@ -44,12 +41,13 @@
   "contacts" : [
   {
     "id": "contacts",
+    "specification": "Контакты",
     "contact": [{
         "href":  "https://discordapp.com/users/713093717342421022/",
         "image": "discord.png" },
       {
         "href": "https://t.me/Vanilinfi",
-        "image": "telegram.avif" }]
+        "image": "telegram.jpg" }]
   }
 ]
 }

@@ -21,3 +21,7 @@
     list-style-type: none;
     font-size: 20px;
 }
+
+.liClass:hover {
+    color: #4e33a3;
+}

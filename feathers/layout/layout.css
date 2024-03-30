@@ -1,7 +1,6 @@
 .container {
-    display: grid;
-    grid-template-areas:
-        ". main .";
-    background-image: url("images/back.avif");
+    display: flex;
+    justify-content: center;
+    background-image: url("images/background.avif");
     background-size: cover;
 }

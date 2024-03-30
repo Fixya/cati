@@ -1,5 +1,6 @@
 import styles from './contactsCard.module.css'
 import {getPicture} from "./picture.js";
+import { exstraText } from './exstraText';
 
 const renderServerValuesHrefImage = data => {
     const div = document.createElement('div')
@@ -19,6 +20,6 @@ export const contactsCard = data => {
 
     div.classList.add(styles.container)
 
-    div.append(renderServerValuesHrefImage(data))
+    div.append(exstraText(data, styles.text, renderServerValuesHrefImage(data)))
     return div;
 }
