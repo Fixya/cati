@@ -9,6 +9,10 @@ const navList = [
   {
     path: '/about',
     name: 'Мои скилы'
+  },
+  {
+    path: '/exstra',
+    name: 'Доп. контент'
   }
 ];
 
@@ -19,7 +23,7 @@ export const getNav = () => {
   navList.forEach(navItem => {
     const li = document.createElement('li');
     li.classList.add('liClass')
-    li.append(bottom(navItem.name, () => goTo(navItem.path)));
+    li.append(bottom(navItem.name, () =>{goTo(navItem.path)}));
     ul.append(li);
   });
 

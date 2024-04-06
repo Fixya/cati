@@ -5,7 +5,7 @@ import {activityCard} from "../components/activityCard";
 
 export const homePage = () => {
     const div = document.createElement('div');
-    div.setAttribute('id', 'divContainer')
+    div.setAttribute('id', 'divActivity')
 
     div.classList.add(styles.container)
 

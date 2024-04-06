@@ -18,7 +18,9 @@
 }
 
 .href {
-    margin: 10px;
+    width: 200px;
+    height: 25px;
+    margin: 15px;
     font-size: 20px;
     text-decoration: none;
     color: #4020a1;
