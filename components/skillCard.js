@@ -21,7 +21,6 @@ const renderServerValuesHref = data => {
         a.target = "_blank"
         a.innerText = item.specification
         a.classList.add(styles.href)
-        console.log(a)
         div.append(a);
     });
 
@@ -33,7 +32,7 @@ export const skillCard = data => {
 
     div.classList.add(styles.container)
 
-    div.append(exstraText(data.languages, styles.text, renderServerValuesLi(data.languages)))
-    div.append(renderServerValuesHref(data))
+    div.append(exstraText(data.languages.specification, styles.textLanguages, renderServerValuesLi(data.languages)))
+    div.append(exstraText("Мои работы в GitHub", styles.textHref, renderServerValuesHref(data)))
     return div;
 }

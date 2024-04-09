@@ -20,6 +20,6 @@ export const contactsCard = data => {
 
     div.classList.add(styles.container)
 
-    div.append(exstraText(data, styles.text, renderServerValuesHrefImage(data)))
+    div.append(exstraText(data.specification, styles.text, renderServerValuesHrefImage(data)))
     return div;
 }

@@ -13,8 +13,8 @@ export const activityCard = data => {
 
     div.classList.add(styles.container)
 
-    div.append(exstraText(data.Im, styles.text, renderServerValues(data.Im, styles.Im)))
-    div.append(exstraText(data.job, styles.text, renderServerValues(data.job, styles.job)))
-    div.append(exstraText(data.affair, styles.text, renderServerValues(data.affair, styles.affair)))
+    div.append(exstraText(data.Im.specification, styles.text, renderServerValues(data.Im, styles.Im)))
+    div.append(exstraText(data.job.specification, styles.text, renderServerValues(data.job, styles.job)))
+    div.append(exstraText(data.affair.specification, styles.text, renderServerValues(data.affair, styles.affair)))
     return div;
 }
