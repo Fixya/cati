@@ -1,6 +1,6 @@
 import styles from './exstraCard.module.css';
 
-let n = 0
+let n = 0  //?
 
 const task = {
   questions: [
@@ -14,18 +14,17 @@ const task = {
       {name: "Что-то среднее", value: "2"},
       {name: "Нет", value: "3"}],
     [
-      "Это хорошая работа!",
-      "Мне нравится, но хотел(а) бы подкорректировать",
-      "Я просто проверяю, что случится, нажав 'Да'."
-    ],
+      {name: "Это хорошая работа!", value: "4"},
+      {name: "Мне нравится, но хотел(а) бы подкорректировать", value: "4"},
+      {name: "Я просто проверяю, что случится, нажав 'Да'.", value: "4"}],
     [
-      "У меня есть предложение:",
-      "Нет."
-    ],
+      {name: "У меня есть предложение:", value: "4"},
+      {name: "Нет.", value: "4"}],
     [
-      "Конечно.",
-      "Я подумаю."
-    ]
+      {name: "Конечно", value: "4"},
+      {name: "Я подумаю.", value: "4"}],
+    [
+      {name: "Спасибо за ответ!", value: ""}]
   ]
 }
 
@@ -36,12 +35,13 @@ const renderinAnswer = (arr) => {
     const input = document.createElement('input')
     const h = document.createElement('h')
 
+    input.addEventListener('click', () => {n = input.value; div.append(welcome())})  //?
+    //нужно сделать чтобы страничка стирала всё и заново отрисовывала
+
     input.type = "radio"
     input.name = "browser"
     input.value = it.value
     h.innerText = it.name
-
-    input.addEventListener('click', () => {n = value})
 
     p.append(input)
     p.append(h)
@@ -51,30 +51,16 @@ const renderinAnswer = (arr) => {
   return div
 }
 
-
-// function targetItem(event) {
-//   let target = event.target;
-//   txt.innerHTML = target.value;
-// }
-//
-// let inps = document.querySelectorAll('input'),
-//   txt = document.querySelector('.box_text');
-//
-// inps.forEach((item) => {
-//   item.addEventListener('click', targetItem)
-// })
-
-
 const welcome = () => {
   const div = document.createElement('div')
   const p = document.createElement('p')
 
-  p.innerText = task.questions[n]
+  n === 4 ? n=4 : p.innerText = task.questions[n]
 
   div.append(p)
   div.append(renderinAnswer(task.answer[n]))
 
-  return div;
+  return div;        //?
 }
 
 export const exstraCard = () => {
@@ -89,15 +75,6 @@ export const exstraCard = () => {
 
   form.append(welcome())
 
-  console.log(form)
-
   div.append(form)
   return div;
 }
-
-// <form name="test" method="post" action="input1.php">
-//   <p><b>Каким браузером в основном пользуетесь:</b><Br>
-//   <input type="radio" name="browser" value="ie"> Internet Explorer<Br>
-//   <input type="radio" name="browser" value="opera"> Opera<Br>
-//     <input type="radio" name="browser" value="firefox"> Firefox<Br>
-//     </p>
