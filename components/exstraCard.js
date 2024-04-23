@@ -48,9 +48,11 @@ const renderinAnswer = (arr) => {
     exstraInput.classList.add(styles.exstraInput)
 
     input.addEventListener('click', () => {
-      task.counter = input.value;
-      div.innerText = "";
-      div.append(welcome());
+      if(exstraInput.type === 'hidden' || exstraInput.value){
+        task.counter = input.value;
+        div.innerText = "";
+        div.append(welcome());
+      }
     })
 
     p.append(input)
@@ -65,6 +67,8 @@ const renderinAnswer = (arr) => {
 const welcome = () => {
   const div = document.createElement('div')
   const p = document.createElement('p')
+
+
 
   p.innerText = task.questions[task.counter]
   p.classList.add(styles.title)
@@ -90,8 +94,7 @@ export const exstraCard = () => {
   form.addEventListener('keydown', function(event) {
     if(event.keyCode == 13) {
       event.preventDefault();
-    }
-  });
+    }});
 
   div.append(form)
   return div;
