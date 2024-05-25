@@ -7,6 +7,7 @@ const renderServerValuesHrefImage = data => {
     data.contact.map((item) => {
         const a = document.createElement('a');
         a.href = item.href
+        a.target = "_blank"
         a.classList.add(styles.href)
         a.append(getPicture(item.image, styles.image))
         div.append(a);
